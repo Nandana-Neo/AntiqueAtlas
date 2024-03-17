@@ -37,7 +37,7 @@ git clone "https://github.com/Hardik-Kushwaha/Face-Detection-Minor1"
 
 After the repository is cloned successfully change the directory to the recent clone repository in which the Django project is kept.
 ```
-cd Face-Detection-Minor1
+cd project1
 ```
 Install the requirements (if any). Most of the projects have requirements.txt file which specifies the requirements of that project, so let’s install the requirements of it from the file.
 ```

@@ -1,4 +1,59 @@
 # AntiqueAtlas
+## Accessing
+### Install and Create a Virtual Environment
+Step 1: Create a virtual environment.
+
+Unix/Linux/macOS users run the following command 
+```
+python3 -m venv env
+```
+Windows users run the following command
+```
+py -m venv env
+```
+Step 2: Activate the virtual environment and verify it
+
+Unix/Linux/macOS users run the following command 
+```
+source env/bin/activate
+```
+Windows users run the following command
+```
+.\env\Scripts\activate
+```
+If you have trouble in creating or activating the virtual environment refer to [this article](https://www.geeksforgeeks.org/python-virtual-environment/).
+
+### Clone a GitHub Repository  
+
+Copy the URL of the GitHub repository if you want to clone it. Run the git clone command in the terminal or git bash to clone the repository.
+```
+Syntax: git clone "URL of GitHub repository"
+```
+```
+git clone "https://github.com/Hardik-Kushwaha/Face-Detection-Minor1"
+```
+
+### Deploy Django Project from GitHub
+
+After the repository is cloned successfully change the directory to the recent clone repository in which the Django project is kept.
+```
+cd Face-Detection-Minor1
+```
+Install the requirements (if any). Most of the projects have requirements.txt file which specifies the requirements of that project, so let’s install the requirements of it from the file.
+```
+pip install -r requirements.txt
+```
+```
+Note: If the project don’t have the requirement.txt file you have to install requirements Individually which are required for the project. e.g., Django,python etc.
+```
+
+Run the Django server by running the below command.
+```
+python3 manage.py runserver
+```
+
+
+Go to the web browser and enter http://127.0.0.1:8000 to verify whether the application is running fine or not.
 
 ## Introduction
 This website was created using HTML, CSS and Javascript for Frontend; Django for Backend; PostgreSQL for the database.<br>

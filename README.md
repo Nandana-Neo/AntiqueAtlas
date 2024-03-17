@@ -30,9 +30,10 @@ Copy the URL of the GitHub repository if you want to clone it. Run the git clone
 Syntax: git clone "URL of GitHub repository"
 ```
 ```
-git clone "https://github.com/Hardik-Kushwaha/Face-Detection-Minor1"
-```
+git clone https://github.com/Nandana-Neo/AntiqueAtlas.git
 
+```
+Navigate to project1 folder that has manage.py folder
 ### Deploy Django Project from GitHub
 
 After the repository is cloned successfully change the directory to the recent clone repository in which the Django project is kept.

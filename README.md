@@ -66,17 +66,35 @@ The contributors to this project are
 - VAISHNAVI RAJESH PAI
 
 ## Home page
+
+
+https://github.com/Nandana-Neo/AntiqueAtlas/assets/129848120/ac35cb19-fd86-4ef8-857e-2875e4beaa48
+
+
 - The home page of the website consists of an interesting collage, an image slider and an interactive navigation bar which connects across all the webpages.
 - Required transitions have been incorporated to make provide an interesting user experience.
 
 ## Search page
+![search1](https://github.com/Nandana-Neo/AntiqueAtlas/assets/129848120/f1ad1a88-4490-4721-8c6a-88c548b7ba56)
 - Upon clicking the search button in the navigation bar, you reach the search page of the website.
 - The search page has option to search for monuments according to their name/country/state/year/construction materials/architecture style.
+  ![sea](https://github.com/Nandana-Neo/AntiqueAtlas/assets/129848120/80987ee4-c686-4aa3-aced-d0dcc6dfefd7)
+
 - Depending on the search parameters provided by the user, a table with the fitting monument appears on the screen.
+  ![search2](https://github.com/Nandana-Neo/AntiqueAtlas/assets/129848120/9dc1e804-306c-482c-9e9e-ed8de368fb40)
+
 - The user can hover over and select the monument of his/her choice.
+  ![search3](https://github.com/Nandana-Neo/AntiqueAtlas/assets/129848120/ddf29429-ecf8-405a-afea-f7542620fc8b)
+
+  
 - They will be then directed to the correspondiing monument page.
 
 ## Monument page
+
+
+https://github.com/Nandana-Neo/AntiqueAtlas/assets/129848120/4cae835b-ef74-44ff-999d-18acdb8b6200
+
+
 - They user will be welcomed by a dazzling image of the monument.
 - They can scroll down to learn more information about the monument such as its location, year of construction, architecture style and materials used for its construction.
 - They can also have an overview about the monument and read its interesting facts.
@@ -84,9 +102,13 @@ The contributors to this project are
 - Required transitions have been incorporated to make provide an interesting user experience.
 
 ## Contact Us
+![Contactpg](https://github.com/Nandana-Neo/AntiqueAtlas/assets/129848120/1c28b993-e386-46df-bd31-edc005b57595)
+
 - If the user wants to add more to the catalogue/monuments that havent been documented yet, then he/she could do so by leaving a message for the admin.
 - The name, mailid and the message sent by the user will be stored in the database for the admin to access it.
-
+## Admin
+- The admin page is for the admin user which as of now is using the user admin page of django which has to be improved.
+  
 ## About Us
 - A simple web-page has been included to provide users with the information about the contributors to this project.
 

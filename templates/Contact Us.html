@@ -1,0 +1,73 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="{% static 'Contact/style.css' %}">
+
+    <style>::-webkit-scrollbar{
+      background: rgb(39, 37, 37) ;
+      width: 15px;
+  }
+  ::-webkit-scrollbar-thumb{
+      background: rgba(101, 94, 88, 0.697);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover{
+      background: #da7b32;
+  }</style>
+</head>
+<body>
+
+
+  <div class="navbar">
+    <div class="icon"><a href="/about" class="logo">
+        <img src="{% static '/LandingPage/Images/logo.png' %}">
+      </a>
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/about">ABOUT</a></li>
+            <li><a href="/Contact Us">CONTACT</a></li>
+        </ul>
+    </div>
+  
+
+  <div class="search">
+     <!-- <input class="srch" type="search" name="" placeholder="Type To Search"> -->
+     <a href="/search"> <button class="btn">Browse..</button></a>
+  </div>
+</div> 
+
+<h2 class="info1">Contact Us</h2>
+<p class="info2">If you have any hidden gem monuments in mind that you believe have the potential to captivate tourists, we'd love to hear from you! Drop us a message with your suggestions!</p>
+
+<div class="form-container">
+  <form method="post" class="contact-form">
+    {% csrf_token %}
+    {{ frm.as_p }}
+    {{ form.media }}
+<!--      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="text" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+-->
+      <input type="submit" value="Submit">
+  </form>
+</div>
+
+<footer>
+  <div class="footer-content">
+      <p>Copyright © 2024 PowerNappers. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
